@@ -3,10 +3,22 @@ Note taking featuring Neovim, pictures and screenshots
 
 Reddit announcement: https://github.com/meatich/Viy
 
-##The idea 
-Have a single folder where you keep all your textual and visual notes. This folder is called "library". Provide an easy way to take and access screenshots.
+##The Big Idea (the possible future)
+What I have in mind is an alternative to Evernote, but functioning in its own way.  An alternative with different values, if you will. Well, here is what Viy looks like now:
+* It has an awesome editor - thanks to Neovim, specifically tailored for a project like this.
+* It embeds media (now: pictures, future: audio, possibly video) within text.
+* It allows taking screenshots.
+* The code was written with portability in mind
+
+Here are some thought on what Viy could look like in the future:
+* It could be a collaboration environment: people share notes. How could this be more useful than, say, e-mail? Well first of all, it is meant to be more comfortable. But picture this: you have someone editing a shared note and someone commenting on this note and yet another someone replying to the first two someones. All through the same system, without any hussle.
+* It could be a bug-tracking system.
+* It could have a back-up system with sync across different devices.
+
+##Overview (the now)
+There is a single folder where you keep all your textual and visual notes. This folder is called "library". The screenshots you take go to that library/images folder. When you fire up the program, you have an easy way to access those screenshots, manually added images and plain old notes.
 ###Images
-Images are kept inside folder called "images". On each program's start-up, these images are autoloaded by the program, which prevents lag when encountering one in a text file.
+Images are kept inside folder called "library/images". On each program's start-up, these images are autoloaded by the program, which prevents lag when encountering one in a text file.
 Now, how do you embed an image into a text file? You put a tag which looks as follows:
 ```
 <|ImageName.png|image size|image fragment|>
@@ -60,3 +72,7 @@ nmap <Leader>pa :call neosfml#PicExpandAll()<Return>
 
 ##Compilation
 Similar to NeoSFML, but also need to include Lua 5.1
+
+##Screenshots
+![alt text](http://i.imgur.com/LAta0eF.png "Example")
+![alt text](http://i.imgur.com/nZYNohF.png "Navigator")
