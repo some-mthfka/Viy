@@ -25,7 +25,7 @@ Application::Application()
     
     mFullscreenWindow.setVisible(false);
 
-	mFonts.load(Fonts::Main, "Media/Sansation.ttf");
+	mFonts.load(Fonts::Main, "Media/navigator.ttf");
 
 	mStatisticsText.setFont(mFonts.get(Fonts::Main));
     mStatisticsText.setColor(sf::Color::Black);
