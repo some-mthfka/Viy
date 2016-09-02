@@ -1,5 +1,5 @@
 # Viy
-Note taker featuring Neovim, pictures and screenshots
+Note taking featuring Neovim, pictures and screenshots
 
 ##The idea 
 Have a single folder where you keep all your textual and visual notes. This folder is called "library". Provide an easy way to take and access screenshots.
@@ -53,8 +53,8 @@ nmap <Leader>pa :call neosfml#PicExpandAll()<Return>
 * F11 Fullscreen
 
 ##Installation instructions:
-1. Install NeoSFML (follow the first four steps to install Viy only)
-2. Download the beta release and run it
+1. Install NeoSFML (follow the first four steps if you don't want NeoSFML itself)
+2. Download https://github.com/meatich/Viy/releases/tag/0.6 and run it
 
 ##Compilation
 Similar to NeoSFML, but also need to include Lua 5.1
