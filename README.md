@@ -1,5 +1,6 @@
 # Viy
 Note taking featuring Neovim, pictures and screenshots
+Reddit announcement: https://github.com/meatich/Viy
 
 ##The idea 
 Have a single folder where you keep all your textual and visual notes. This folder is called "library". Provide an easy way to take and access screenshots.
