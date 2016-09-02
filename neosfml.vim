@@ -1,4 +1,5 @@
-"Used for NeoSFML GUI
+"Used for Viy GUI
+"Goes to neovim's autoload directory
 
 function! neosfml#PicCopyAndInc(reps)
     let c = 1
