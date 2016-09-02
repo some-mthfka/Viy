@@ -1,7 +1,7 @@
 # Viy
 Note taking featuring Neovim, pictures and screenshots
 
-Reddit announcement: https://github.com/meatich/Viy
+[Reddit announcement](https://www.reddit.com/r/neovim/comments/50s5ao/viy_note_taking_featuring_neovim_pictures_and)
 
 ##The Big Idea (the possible future)
 What I have in mind is an alternative to Evernote, but functioning in its own way.  An alternative with different values, if you will. Well, here is what Viy looks like now:
