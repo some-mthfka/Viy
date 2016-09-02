@@ -1,5 +1,6 @@
 # Viy
 Note taking featuring Neovim, pictures and screenshots
+
 Reddit announcement: https://github.com/meatich/Viy
 
 ##The idea 
