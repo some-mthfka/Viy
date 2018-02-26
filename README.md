@@ -3,7 +3,11 @@ Note taking featuring Neovim, pictures and screenshots
 
 [Reddit announcement](https://www.reddit.com/r/neovim/comments/50s5ao/viy_note_taking_featuring_neovim_pictures_and)
 
-##The Big Idea (the possible future)
+## Maintenance: 
+
+The project is not actively maintained. I did not find out how to do elegant picture embedding. But that was summer 2016, the API and architecture might have changed since then. I switched to Emacs however - it does support pictures. If you think this project is interesting anyway, don't hesitate to open an issue.
+
+## The Big Idea (the possible future)
 What I have in mind is an alternative to Evernote, but functioning in its own way.  An alternative with different values, if you will. Well, here is what Viy looks like now:
 * It has an awesome editor - thanks to Neovim, specifically tailored for a project like this.
 * It embeds media (now: pictures, future: audio, possibly video) within text.
@@ -15,9 +19,9 @@ Here are some thought on what Viy could look like in the future:
 * It could be a bug-tracking system.
 * It could have a back-up system with sync across different devices.
 
-##Overview (the now)
+## Overview (the now)
 There is a single folder where you keep all your textual and visual notes. This folder is called "library". The screenshots you take go to that library/images folder. When you fire up the program, you have an easy way to access those screenshots, manually added images and plain old notes.
-###Images
+### Images
 Images are kept inside folder called "library/images". On each program's start-up, these images are autoloaded by the program, which prevents lag when encountering one in a text file.
 Now, how do you embed an image into a text file? You put a tag which looks as follows:
 ```
@@ -37,7 +41,7 @@ Then, you put your cursor on the tag and expand it by :call PicExpand() or using
 The program, upon encountering one of such tags, replaces it with a picture fragment.
 
 Tags for all images can be viewed in library/images/ImageList.txt
-###Navigator
+### Navigator
 The navigator is opened by default when the program starts. Only the files inside the library are scanned and so only they may be viewed in the navigator.
 Also, you can search library by pressing <F2>.
 To prevent Navigator to show up on program's launch, remove the following line from build_windows/gui_bridge.py:
@@ -47,7 +51,7 @@ self._ui.switch_to_navigator()
 ### Screenshots
 To take a screenshot, press F5. Select the necessary area and press Enter. The screenshot will be saved at library/images and a tag will be added to library/images/ImageList.txt from where you can copy it.
 
-##Neovim settings
+## Neovim settings
 neosfml.vim should be put into autoload directory or sourced from init.vim
 Here is what you could include in init.vim:
 ```
@@ -62,17 +66,17 @@ nmap <Leader>pe :call neosfml#PicExpand()<Return>
 nmap <Leader>pa :call neosfml#PicExpandAll()<Return>
 ```
 
-##Shortcuts
+## Shortcuts
 * F5  Take screenshot
 * F11 Fullscreen
 
-##Installation instructions:
+## Installation instructions:
 1. Install NeoSFML (follow the first four steps if you don't want NeoSFML itself)
 2. Download https://github.com/meatich/Viy/releases/tag/0.6 and run it
 
-##Compilation
+## Compilation
 Similar to NeoSFML, but also need to include Lua 5.1
 
-##Screenshots
+## Screenshots
 ![alt text](http://i.imgur.com/LAta0eF.png "Example")
 ![alt text](http://i.imgur.com/nZYNohF.png "Navigator")
