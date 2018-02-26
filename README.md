@@ -5,7 +5,7 @@ Note taking featuring Neovim, pictures and screenshots
 
 ## Maintenance: 
 
-The project is not actively maintained. I did not find out how to do elegant picture embedding. But that was summer 2016, the API and architecture might have changed since then. I switched to Emacs however - it does support pictures.
+The project is not actively maintained. I did not figure out how to embed visuals in an elegant way. But that was summer 2016, the API and architecture might have changed since then. And I switched to Emacs anyway - it does support pictures.
 
 ## The Big Idea (the possible future)
 What I have in mind is an alternative to Evernote, but functioning in its own way.  An alternative with different values, if you will. Well, here is what Viy looks like now:
