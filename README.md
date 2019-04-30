@@ -72,7 +72,7 @@ nmap <Leader>pa :call neosfml#PicExpandAll()<Return>
 
 ## Installation instructions:
 1. Install NeoSFML (follow the first four steps if you don't want NeoSFML itself)
-2. Download https://github.com/meatich/Viy/releases/tag/0.6 and run it
+2. Download https://github.com/grigorievich/Viy/releases/tag/0.6 and run it
 
 ## Compilation
 Similar to NeoSFML, but also need to include Lua 5.1
